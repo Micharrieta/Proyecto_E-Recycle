@@ -29,7 +29,7 @@ git clone https://github.com/Micharrieta/Proyecto_E-Recycle.git
 
 Se debe crear un archivo .env en la raiz de cada parte, tanto en la App Python como en el componente web CakePHP
 
-- El archivo .env contendrá las credenciales para la conexion a la base de datos, se sugiere la siguiente estructura en los archivos .env.example
+- El archivo .env contendrá las credenciales para la conexion a la base de datos, se sugiere la siguiente estructura presente en los archivos .env.example
 
 ```
 DB_HOST=localhost
