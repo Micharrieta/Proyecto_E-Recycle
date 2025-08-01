@@ -1,0 +1,63 @@
+.navbar {
+    margin-bottom: 10px;
+}
+
+
+body {
+    background-image: url('https://i.postimg.cc/Kvy1bzPM/33778094-4ccc.jpg'); /* Reemplaza 'ruta/a/tu/imagen.jpg' con la ruta de tu imagen */
+    background-size: cover; /* Hace que la imagen cubra todo el fondo */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-attachment: fixed; /* Hace que la imagen de fondo permanezca fija al hacer scroll */
+}
+
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+    background-color: transparent !important; /* Asegura que no haya fondo */
+    color: black !important; /* Mantiene el color original */
+    transition: transform 0.5s ease;
+    transform: scale(1.1); /* Efecto de ampliación */
+}
+
+
+.navbar .container-fluid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.navbar-nav {
+    margin-left: 100px;
+}
+
+.nav-item {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Agregar margen inferior a la tabla dentro de .tips.index.content */
+.tips.index.content {
+    margin-bottom: 50px; /* Ajusta el valor según sea necesario */
+}
+
+.recyclingCenters.index.content {
+    margin-bottom: 50px; /* Ajusta el valor según sea necesario */
+}
+
+.recyclingCenters.index.content {
+    margin-bottom: 50px; /* Ajusta el valor según sea necesario */
+}
+
+.detections.index.content {
+    margin-bottom: 50px; /* Ajusta el valor según sea necesario */
+}
+
+.container{
+    margin-bottom: 50px;
+}
+
